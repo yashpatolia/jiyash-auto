@@ -1,14 +1,15 @@
-// pages/_app.js
-
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Contactbar from "../components/Contactbar";
+import Main from "../components/Main";
 
-function MyApp({ Component, pageProps }) {
+function MyApp() {
   return (
-    <>
+    <main>
+      <Contactbar />
       <Navbar />
-      <Component {...pageProps} />
-    </>
+      <Main />
+    </main>
   );
 }
 

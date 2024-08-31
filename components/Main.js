@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className="mt-[80px]">
       <div className={styles.container}>
         <div className={`${styles.panel} row-span-2 col-span-1`}>
           <p className="relative z-[1] text-[40px] font-[500]">Used Cars</p>

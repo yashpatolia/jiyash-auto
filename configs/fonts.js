@@ -9,12 +9,15 @@ import {
   faCar,
   faScrewdriver,
   faHammer,
+  faMagnifyingGlass,
+  faDollarSign,
+  faGasPump,
+  faRoad,
+  faGears,
+  faInfo,
+  faCamera,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebookF,
-  faXTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
   faMapMarkerAlt,
@@ -29,4 +32,11 @@ library.add(
   faInstagram,
   faScrewdriver,
   faHammer,
+  faMagnifyingGlass,
+  faDollarSign,
+  faGasPump,
+  faRoad,
+  faGears,
+  faInfo,
+  faCamera,
 );

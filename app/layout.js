@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import Navbar from "../components/Navbar";
 config.autoAddCss = false;
+import "../configs/fonts.js";
 
 const inter = Inter({ subsets: ["latin"] });
 

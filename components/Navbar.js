@@ -11,22 +11,29 @@ const Navbar = () => {
       </div>
       <ul className={styles.navLinks}>
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">
+            <p>Home</p>
+          </Link>
         </li>
         <li>
-          <Link href="/inventory">Inventory</Link>
+          <Link href="/inventory">
+            <p>Inventory</p>
+          </Link>
         </li>
         <li>
-          <Link href="/repair">Repairs</Link>
+          <Link href="/repair">
+            <p>Repairs</p>
+          </Link>
         </li>
         <li>
-          <Link href="/about">About Us</Link>
+          <Link href="/about">
+            <p>About Us</p>
+          </Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link href="/login">Login</Link>
+          <Link href="/login">
+            <p>Login</p>
+          </Link>
         </li>
       </ul>
     </nav>

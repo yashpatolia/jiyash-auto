@@ -7,6 +7,8 @@ import {
   faWarehouse,
   faScrewdriverWrench,
   faCar,
+  faScrewdriver,
+  faHammer,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -25,4 +27,6 @@ library.add(
   faFacebookF,
   faXTwitter,
   faInstagram,
+  faScrewdriver,
+  faHammer,
 );

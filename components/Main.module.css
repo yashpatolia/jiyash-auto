@@ -4,7 +4,7 @@
     background-color: #f7f7f7;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 650px 250px;
+    grid-template-rows: 310px 310px 250px;
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;

@@ -28,8 +28,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/about">
-            <p>About Us</p>
+          <Link href="/maintenance">
+            <p>Maintenance</p>
           </Link>
         </li>
         <li>

@@ -4,11 +4,12 @@
     background-color: #f7f7f7;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 700px 150px;
+    grid-template-rows: 650px 250px;
     column-gap: 20px;
     row-gap: 20px;
     padding: 20px;
     line-height: 1.2;
+    font-family: "Poppins", sans-serif;
 }
 
 .panel {
@@ -19,49 +20,6 @@
     padding: 25px 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.carSearch {
-    grid-area: 2 / 1 / 2 / 3;
-    position: relative;
-    overflow: hidden;
-    background-color: #333;
-    color: white;
-    padding: 25px 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    gap: 20px;
-}
-
-.h1 {
-    background-color: transparent;
-    position: relative;
-    z-index: 1;
-    font-family: "Poppins", sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.h2 {
-    background-color: transparent;
-    position: relative;
-    z-index: 1;
-    font-family: "Poppins", sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.p {
-    display: flex;
-    position: relative;
-    z-index: 1;
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    margin-top: 10px;
 }
 
 .btn {
@@ -79,30 +37,4 @@
 
 .btn:hover {
     background-color: #ff8c7f;
-}
-
-.car {
-    position: absolute;
-    /* z-index: 0; */
-    width: 80%;
-    bottom: 0;
-    right: 0;
-}
-
-.repair {
-    position: absolute;
-    /* z-index: 0; */
-    width: 90%;
-    bottom: 0;
-    right: 0;
-}
-
-.carSearchh1 {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.carSearchh2 {
-    font-size: 14px;
-    font-weight: 600;
 }

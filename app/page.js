@@ -6,7 +6,7 @@ import Main from "../components/Main";
 function MyApp() {
   return (
     <main>
-      <Contactbar />
+      {/*<Contactbar />*/}
       <Navbar />
       <Main />
     </main>

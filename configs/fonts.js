@@ -8,6 +8,11 @@ import {
   faScrewdriverWrench,
   faCar,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebookF,
+  faXTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 library.add(
   faMapMarkerAlt,
@@ -17,4 +22,7 @@ library.add(
   faWarehouse,
   faScrewdriverWrench,
   faCar,
+  faFacebookF,
+  faXTwitter,
+  faInstagram,
 );

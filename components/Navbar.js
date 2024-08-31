@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <Image src={logo} alt="Jiyash Auto Logo" width={156} height={60} />
+        <Link href="/">
+          <Image src={logo} alt="Jiyash Auto Logo" width={156} height={60} />
+        </Link>
       </div>
       <ul className={styles.navLinks}>
         <li>

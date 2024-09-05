@@ -1,7 +1,7 @@
 import CarElement from "./CarElement";
 import styles from "./CarInventory.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import YearDropdown from "./dropdowns/YearDropdown";
+import Dropdown from "./menus/Dropdown";
 
 const CarInventory = () => {
   return (
@@ -11,7 +11,7 @@ const CarInventory = () => {
           <FontAwesomeIcon icon="fas fa-magnifying-glass" />
           <p className="pl-[10px]">Search Our Inventory</p>
         </div>
-        <YearDropdown />
+        <Dropdown label="Year" id="year" />
       </div>
       <div className={styles.inventory}>
         <CarElement />

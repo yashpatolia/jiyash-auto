@@ -6,7 +6,7 @@ import logo from "../images/logo2.png";
 
 const Footer = () => {
   return (
-    <footer className="absolute w-[100%] px-[20px] py-[20px]">
+    <footer className="absolute w-[100%] px-[20px] pb-[20px]">
       <div className={styles.footer}>
         <div className="text-[16px]">
           <ul className="flex flex-col gap-3">

@@ -20,12 +20,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ff6961;
+    background-color: #dd3c53;
     align-items: center;
     justify-content: center;
     transition-duration: 0.5s;
 }
 
 .socials:hover {
-    background-color: #ff8c7f;
+    background-color: #ff6961;
 }

@@ -39,7 +39,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #ff6961;
+    background-color: #dd3c53;
     align-items: center;
     justify-content: center;
     transition-duration: 0.5s;
@@ -47,7 +47,7 @@
 }
 
 .links:hover {
-    background-color: #ff8c7f;
+    background-color: #ff6961;
 }
 
 .info {
@@ -58,22 +58,4 @@
     font-size: 14px;
     font-weight: 400;
     gap: 30px;
-}
-
-.btn {
-    display: flex;
-    position: absolute;
-    /* z-index: 1; */
-    background-color: #ff6961;
-    padding: 5px 10px;
-    border-radius: 5px;
-    align-items: center;
-    gap: 5px;
-    transition-duration: 0.5s;
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.btn:hover {
-    background-color: #ff8c7f;
 }

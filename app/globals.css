@@ -32,20 +32,6 @@ html {
     background-color: #f7f7f7;
 }
 
-::-webkit-scrollbar {
-    width: 18px;
-}
-
-::-webkit-scrollbar-track {
-    color: #18181b;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #3f3f45;
-    border-radius: 15px;
-    border: 5px solid #18181b;
-}
-
 @layer utilities {
     .text-balance {
         text-wrap: balance;

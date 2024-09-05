@@ -1,10 +1,10 @@
 .btn {
-    width: 200px;
-    background-color: #ff6961;
+    width: 220px;
+    background-color: #dd3c53;
     color: white;
     border-radius: 10px;
-    padding: 5px 15px;
-    font-size: 15px;
+    padding: 7px 15px;
+    font-size: 14px;
     display: flex;
     transition-duration: 0.5s;
     justify-content: space-between;
@@ -32,6 +32,20 @@
     max-height: 150px;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.menu::-webkit-scrollbar {
+    width: 18px;
+}
+
+.menu::-webkit-scrollbar-track {
+    color: #18181b;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background-color: #3f3f45;
+    border-radius: 15px;
+    border: 5px solid #18181b;
 }
 
 .item {

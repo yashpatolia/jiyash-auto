@@ -31,15 +31,15 @@ const CarElement = () => {
 
         <div className={styles.info}>
           <div className="flex flex-col items-center gap-2">
-            <FontAwesomeIcon icon="fa-solid fa-gas-pump" style={{ color: "#dd3c53" }} />
+            <FontAwesomeIcon icon="fa-solid fa-gas-pump" style={{ color: "#ff6961" }} />
             <p>Gasoline</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <FontAwesomeIcon icon="fa-solid fa-road" style={{ color: "#dd3c53" }} />
+            <FontAwesomeIcon icon="fa-solid fa-road" style={{ color: "#ff6961" }} />
             <p>151,172 KM</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <FontAwesomeIcon icon="fa-solid fa-gears" style={{ color: "#dd3c53" }} />
+            <FontAwesomeIcon icon="fa-solid fa-gears" style={{ color: "#ff6961" }} />
             <p>Manual</p>
           </div>
         </div>
@@ -49,3 +49,13 @@ const CarElement = () => {
 };
 
 export default CarElement;
+
+<div className="flex flex-row items-center gap-2">
+  <FontAwesomeIcon icon="fa-solid fa-dollar-sign" style={{ color: "#ff6961" }} />
+  <p>14,750</p>
+</div>;
+
+<Link href="/" className={styles.btn}>
+  <FontAwesomeIcon icon="fa-solid fa-screwdriver-wrench" />
+  <p>View</p>
+</Link>;

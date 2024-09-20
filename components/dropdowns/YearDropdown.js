@@ -14,7 +14,7 @@ export default function YearDropdown() {
     <Dropdown>
       <DropdownTrigger>
         <Button variant="bordered" className={`${styles.btn} capitalize`} disableRipple>
-          {selectedValue && selectedKeys.size > 4 ? <p>Year: {selectedKeys.size} Selected</p> : <p>{selectedValue || "Year"}</p>}
+          {selectedValue && selectedKeys.size > 3 ? <p>{selectedKeys.size} Selected</p> : <p>{selectedValue || "Year"}</p>}
           <FontAwesomeIcon icon={faCaretDown} style={{ color: "#ffffff" }} />
         </Button>
       </DropdownTrigger>

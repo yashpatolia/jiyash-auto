@@ -11,18 +11,18 @@ const Footer = () => {
         <div className="text-[16px]">
           <ul className="flex flex-col gap-3">
             <li className="flex gap-3 place-items-baseline">
-              <FontAwesomeIcon icon="fas fa-map-marker-alt" style={{ color: "#dd3c53" }} />
+              <FontAwesomeIcon icon="fas fa-map-marker-alt" style={{ color: "#ff6961" }} />
               <div>
                 <p>1461 King Street East, Cambridge</p>
                 <p>Ontario, N3H 3R3</p>
               </div>
             </li>
             <li className="flex gap-3 items-center">
-              <FontAwesomeIcon icon="fa-solid fa-envelope" style={{ color: "#dd3c53" }} />
+              <FontAwesomeIcon icon="fa-solid fa-envelope" style={{ color: "#ff6961" }} />
               <p>jiyashautosales@gmail.com </p>
             </li>
             <li className="flex gap-3 items-center">
-              <FontAwesomeIcon icon="fa-solid fa-phone" style={{ color: "#dd3c53" }} />
+              <FontAwesomeIcon icon="fa-solid fa-phone" style={{ color: "#ff6961" }} />
               <p>519-653-6222</p>
             </li>
           </ul>
@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div>
           <li className="flex gap-3 place-items-baseline">
-            <FontAwesomeIcon icon="fa-solid fa-clock" style={{ color: "#dd3c53" }} />
+            <FontAwesomeIcon icon="fa-solid fa-clock" style={{ color: "#ff6961" }} />
             <div className="flex flex-col gap-2">
               <p>Sales Department</p>
               <p className="text-[14px] font-[300]">Mon - Fri: 9:00 am - 5:00 pm</p>

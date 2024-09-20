@@ -1,0 +1,67 @@
+.btn {
+    width: 220px;
+    background-color: #dd3c53;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 14px;
+    display: flex;
+    transition-duration: 0.5s;
+    justify-content: space-between;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #ff8c7f;
+    text-decoration: none;
+    outline: none;
+}
+
+.menu {
+    background-color: #18181b;
+    text-decoration: none;
+    outline: none;
+    width: 200px;
+    padding: 5px 0px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.menu::-webkit-scrollbar {
+    width: 18px;
+}
+
+.menu::-webkit-scrollbar-track {
+    color: #18181b;
+}
+
+.menu::-webkit-scrollbar-thumb {
+    background-color: #3f3f45;
+    border-radius: 15px;
+    border: 5px solid #18181b;
+}
+
+.item {
+    width: 170px;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    margin: 2px 0px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    justify-content: space-between;
+}
+
+.item:hover {
+    background-color: #3f3f45;
+    cursor: pointer;
+}

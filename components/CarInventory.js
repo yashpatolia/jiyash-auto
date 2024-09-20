@@ -7,8 +7,8 @@ import ModelDropdown from "./dropdowns/ModelDropdown";
 import BodyTypeDropdown from "./dropdowns/BodyTypeDropdown";
 import TransmissionDropdown from "./dropdowns/TransmissionDropdown";
 import DriveTrainDropdown from "./dropdowns/DriveTrainDropdown";
-import ExteriorColorDropdown from "./dropdowns/ExteriorColorDropdown";
-import InteriorColorDropdown from "./dropdowns/InteriorColorDropdown";
+import ExteriorColorDropdown from "./dropdowns/ExtColorDropdown";
+import InteriorColorDropdown from "./dropdowns/IntColorDropdown";
 
 const CarInventory = () => {
   return (

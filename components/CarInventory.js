@@ -2,6 +2,13 @@ import CarElement from "./CarElement";
 import styles from "./CarInventory.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import YearDropdown from "./dropdowns/YearDropdown";
+import MakeDropdown from "./dropdowns/MakeDropdown";
+import ModelDropdown from "./dropdowns/ModelDropdown";
+import BodyTypeDropdown from "./dropdowns/BodyTypeDropdown";
+import TransmissionDropdown from "./dropdowns/TransmissionDropdown";
+import DriveTrainDropdown from "./dropdowns/DriveTrainDropdown";
+import ExteriorColorDropdown from "./dropdowns/ExteriorColorDropdown";
+import InteriorColorDropdown from "./dropdowns/InteriorColorDropdown";
 
 const CarInventory = () => {
   return (
@@ -11,7 +18,7 @@ const CarInventory = () => {
           <FontAwesomeIcon icon="fas fa-magnifying-glass" />
           <p className="pl-[10px]">Search Our Inventory</p>
         </div>
-<<<<<<< HEAD:frontend/components/CarInventory.js
+
         <div className="flex flex-col gap-[15px]">
           <YearDropdown />
           <MakeDropdown />
@@ -22,9 +29,8 @@ const CarInventory = () => {
           <ExteriorColorDropdown />
           <InteriorColorDropdown />
         </div>
-=======
+
         <YearDropdown />
->>>>>>> parent of d114bdb6 (implement all filters):components/CarInventory.js
       </div>
       <div className={styles.inventory}>
         <CarElement />
